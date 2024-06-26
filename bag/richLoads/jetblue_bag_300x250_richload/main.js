@@ -3,7 +3,6 @@ var tl;
 var container = myFT.$("#container");
 var default_exit = myFT.$("#default_exit");
 var endframe = myFT.$("#endframe")
-var endframe_headline = myFT.$("#endframe_headline")
 // var myVid=myFT.$("#video1");
 var clickTag1_url = "";
 // var vid_time_triggered=false;
