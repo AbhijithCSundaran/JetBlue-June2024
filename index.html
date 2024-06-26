@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-        <title>JetBlue Charleston Preview Links</title>
-        <style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>JetBlue Charleston Preview Links</title>
+  <style>
     html,
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -17,7 +18,8 @@
       overflow-x: hidden;
       position: relative;
     }
-    .header{
+
+    .header {
       text-align: center;
     }
 
@@ -32,8 +34,9 @@
       font-family: Arial, Helvetica, sans-serif;
       font-size: 18px;
     }
-    a:hover{
-      background-color: #00a35f;
+
+    a:hover {
+      background-color: #bf99c4;
       color: #fff;
     }
 
@@ -41,8 +44,16 @@
       font-size: 30px;
     }
 
-    img {
-      filter: invert();
+    .logo {
+      width: 120px;
+      position: relative;
+    }
+
+    .logo img {
+      position: absolute;
+      bottom: 0;
+      left: 20px;
+      filter: hue-rotate(50deg);
       max-width: 200px;
     }
 
@@ -51,7 +62,8 @@
       justify-content: center;
       gap: 5px;
     }
-    .all_box{
+
+    .all_box {
       width: 100%;
       padding: 0 10px;
       display: grid;
@@ -60,48 +72,54 @@
       gap: 10px;
       flex-wrap: wrap;
     }
-    .box{
+
+    .box {
       min-width: 400px;
-      background-color:#00a35f59;
+      background-color: #bf99c4;
       padding: 20px 10px;
-      border: #006141 solid 5px;
+      border: #6b0579 solid 5px;
       border-radius: 12px;
     }
-    .box h3{
+
+    .box h3 {
       margin: 0px;
       margin-bottom: 15px;
       font-size: 25px;
     }
-        </style>
-    </head>
-    <body>
-        <div class="header mt-3 d-flex">
-            <img src="bag/richLoads/jetblue_bag_300x250_richload/images/logo.png" alt="">
-            <h2>JetBlue Banners</h2>
-        </div>
-        <div class="all_box mt-4">
-            <div class="box">
-                <div class="subhead">
-                    <h3>Bag/FCB</h3>
-                </div>
-                <div class="buttons">
-                    <a target="_blank" href="bag/base/jetblue_bag_160x600_base/index.html">160x600</a>
-                    <a target="_blank" href="bag/base/jetblue_bag_300x250_base/index.html">300x250</a>
-                    <a target="_blank" href="bag/base/jetblue_bag_300x600_base/index.html">300x600</a>
-                    <a target="_blank" href="bag/base/jetblue_bag_728x90_base/index.html">728x90</a>
-                </div>
-            </div>
-            <div class="box">
-                <div class="subhead">
-                    <h3>Gradient/Sky</h3>
-                </div>
-                <div class="buttons">
-                    <a target="_blank" href="gradient/base/jetblue_gradient_160x600_base/index.html">160x600</a>
-                    <a target="_blank" href="gradient/base/jetblue_gradient_300x250_base/index.html">300x250</a>
-                    <a target="_blank" href="gradient/base/jetblue_gradient_300x600_base/index.html">300x600</a>
-                    <a target="_blank" href="gradient/base/jetblue_gradient_728x90_base/index.html">728x90</a>
-                </div>
-            </div>
-        </div>
-    </body>
+  </style>
+</head>
+
+<body>
+  <div class="header mt-3 d-flex">
+    <div class="logo">
+      <img src="bag/richLoads/jetblue_bag_300x250_richload/images/logo.png" alt="">
+    </div>
+    <h2>JetBlue Banners</h2>
+  </div>
+  <div class="all_box mt-4">
+    <div class="box">
+      <div class="subhead">
+        <h3>Bag/FCB</h3>
+      </div>
+      <div class="buttons">
+        <a target="_blank" href="bag/base/jetblue_bag_160x600_base/index.html">160x600</a>
+        <a target="_blank" href="bag/base/jetblue_bag_300x250_base/index.html">300x250</a>
+        <a target="_blank" href="bag/base/jetblue_bag_300x600_base/index.html">300x600</a>
+        <a target="_blank" href="bag/base/jetblue_bag_728x90_base/index.html">728x90</a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="subhead">
+        <h3>Gradient/Sky</h3>
+      </div>
+      <div class="buttons">
+        <a target="_blank" href="gradient/base/jetblue_gradient_160x600_base/index.html">160x600</a>
+        <a target="_blank" href="gradient/base/jetblue_gradient_300x250_base/index.html">300x250</a>
+        <a target="_blank" href="gradient/base/jetblue_gradient_300x600_base/index.html">300x600</a>
+        <a target="_blank" href="gradient/base/jetblue_gradient_728x90_base/index.html">728x90</a>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
