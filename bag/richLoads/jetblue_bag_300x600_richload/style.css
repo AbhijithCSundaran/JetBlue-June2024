@@ -65,38 +65,46 @@ img {
 
 .copy {
   position: absolute;
-  left: 14px;
-  top: 29px;
-  font-size: 26px;
-  letter-spacing: -0.35px;
-  line-height: 1;
+  left: 20px;
+  top: 59px;
+  font-size: 30px;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
   color: #ffffff;
   font-family: "KlarheitGroteskExtraBold", sans-serif;
   transition: all 0.1s;
 }
 
 .terms {
-  top: 172px;
-  left: 86px;
+  top: 267px;
+  left: 165px;
   font-size: 9px;
-  letter-spacing: -0.4px;
+  letter-spacing: 0px;
   color: #ffffff;
   font-family: "KlarheitGroteskBook", sans-serif;
 }
 
 #endframe {
-  top: calc(100% - 10px);
+  top: calc(100% - 16px);
   background-color: #ffffff;
   display: block;
   z-index: 5;
   transition: all 0.1s;
 }
 
+#endframe .copy {
+  left: 29px;
+  top: 61px;
+  font-size: 39px;
+  letter-spacing: -0.6px;
+  line-height: 1.08;
+}
+
 #endframe .terms {
-  left: 227px;
-  top: 174px;
+  font-size: 11px;
+  left: 206px;
+  top: 479px;
   color: #0000aa;
-  font-family: "KlarheitGroteskExtraBold", sans-serif;
 }
 
 #endframe .copy {
@@ -109,26 +117,29 @@ img {
 
 .pink-bar {
   width: 100%;
-  height: 9px;
+  height: 15px;
   background-color: #fc3388;
 }
 
 .card_wrpr {
-  left: 139px;
+  left: 2px;
+  top: 149px;
+  width: 369px;
+  height: 100%;
 }
 
 .cta {
   text-align: center;
   transform-origin: center;
-  border-radius: 4px;
+  border-radius: 6px;
   background: #fc3388;
   color: #fff;
   font-family: "KlarheitGroteskSemiBold", sans-serif;
-  font-size: 11px;
-  top: 98px;
-  left: 14px;
-  width: 98px;
-  height: 31px;
+  font-size: 15px;
+  top: 254px;
+  left: 32px;
+  width: 115px;
+  height: 38px;
   display: flex;
   justify-content: center;
   align-items: center;
