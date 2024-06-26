@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flashtalking In-Banner Video Ad using Custom Elements</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.flashtalking.com/frameworks/js/gsap/latest/TweenMax.min.js"
+    ></script>
+    <script src="CustomEase.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="main.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+		<!-- <img src="./ref/JetBlue_Credit_Card_Platform_ManBeach_160x600_Frame01.png" style=" opacity: 30%; z-index: 100; width: 100%;" alt=""> -->
+      <!-- <ft-video id="video1" name="video1" autoplay></ft-video> -->
+      <!--
+				Flashtalking Custom Element Documentation:
+				https://flashtalkingsupport.zendesk.com/hc/en-us/sections/360000054268-JS-Docs-2-10-Elements
+			-->
+
+      <img id="sky" src="images/sky.jpg" />
+      <img id="sea" src="./images/sea.png" />
+
+      <div id="textWrapper">
+        <div id="copy1" class="hidden copyF1">
+			<img src="./images/earn.png" alt="">
+		</div>
+
+        <div id="copy2" class="hidden copyF1">
+			<img src="./images/70,000.png" alt="">
+		</div>
+
+        <div id="copy3" class="hidden copyF1">
+			<img src="./images/bonus.png" alt="">
+		</div>
+
+        <div id="copy4" class="hidden copyF1">
+			<img src="./images/points.png" alt="">
+		</div>
+      </div>
+
+      <div id="copy5" class="hidden">That's at least</div>
+
+      <div id="copy6" class="hidden">$700</div>
+
+      <div id="copy7" class="hidden">in award travel</div>
+
+      <img id="sand" src="./images/sand.png" />
+      <img id="man" src="./images/man.png" />
+
+      <!-- <div class="rectangle"></div> -->
+
+      <!-- <img id="test" src="images/test.jpg" alt=""> -->
+
+      <div id="endframe" class="">
+				<div id="pink-bar"></div>
+				<div id="endframe_headline">
+					Earn <span>70,000 <br> bonus points</span><br>with the <br>JetBlue <br> Plus Card.
+				</div>
+				<div id="card_animation">
+					<div id="card"></div>
+					<div id="shine"></div>
+				</div>
+				<div id="terms">Terms Apply</div>
+				<div id="cta">Apply now</div>
+				<!-- <img id="logo" src="images/logo.svg" alt=""> -->
+			</div>
+        <img id="footer" src="images/logo.svg" alt="" />
+    </div>
+    <div id="default_exit"></div>
+    <!-- 
+			Flashtalking HTML5 API Documentation:
+			https://flashtalkingsupport.zendesk.com/hc/en-us/articles/360000616047-Class-FT  
+		-->
+    <script src="https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js"></script>
+  </body>
+</html>
