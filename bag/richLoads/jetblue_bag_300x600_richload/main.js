@@ -1,22 +1,20 @@
-// Var Declarations
+// Var Declaration
 var tl;
-var tl2;
 var container = myFT.$("#container");
 var default_exit = myFT.$("#default_exit");
 var endframe = myFT.$("#endframe")
-var endframe_headline = myFT.$("#endframe_headline")
 // var myVid=myFT.$("#video1");
-var clickTag1_url="";
+var clickTag1_url = "";
 // var vid_time_triggered=false;
 
 //
-default_exit.on('click',function(){
-  myFT.clickTag(1,clickTag1_url)
+default_exit.on('click', function () {
+  myFT.clickTag(1, clickTag1_url)
 })
 // wait for instantads to load before initializing creative animation
-myFT.on('instantads',function(){
+myFT.on('instantads', function () {
 
-  clickTag1_url=myFT.instantAds.clickTag1_url;
+  clickTag1_url = myFT.instantAds.clickTag1_url;
 
 })
 
@@ -31,23 +29,14 @@ function animate() {
 
   // let video play
   tl.addLabel('start', 0)
-  .to('#container', 0.5, { autoAlpha: 1 }, 'start+=0.5')
-  .staggerTo(['#copy1', '#copy2', '#copy3'], 1, { autoAlpha: 1, ease: "expo.out" }, 0.1, 'start+=2.5')
-  .staggerFrom(['#copy1', '#copy2', '#copy3'], 1, { y: '+=200', ease: "expo.out" }, 0.1, 'start+=2.5')
-  .to('.copyF1', 0.5, {alpha: 0, delay: 2})
-  .staggerTo(['#copy4', '#copy5', '#copy6'], 1, { autoAlpha: 1, ease: "expo.out" }, 0.1, 'start+=6.5')
-  .staggerFrom(['#copy4', '#copy5', '#copy6'], 1, { y: '+=200', ease: "expo.out" }, 0.1, 'start+=6.5')
-  .staggerTo(['#copy4', '#copy5', '#copy6'], 1, {textShadow: "0px 0px 20px #3B6EEF"}, 0.1, 'start+=7')
-  .to('#footer', 0.5, {css: { 'opacity': '0'}, delay: 1.5})
-  .to('#footer', 0.1, {css: {'filter': 'brightness(0) invert(1)', delay: 1.5}})
-  .to('#endframe', 1, { top: 0, ease: "expo.out" })
-  .to('#footer', 0.5, {css: { 'opacity': '1'}})
-  .to('#shine', 0.5, {backgroundPosition: '450px 0px'});
-    
-    tl.to(['#man'], 8, { transform: "translate3d(0, 40px, 1px) scale(1.15)", ease: Power1.easeInOut }, 0)
-    tl.to(['#bkg'], 8, { transform: "translate3d(0, 0, 1px) scale(1.3)", ease: Power1.easeInOut }, 0)
-
-
+    .to('#container', 0.5, { autoAlpha: 1 }, 'start+=0.5')
+    .staggerTo(['#copy1', '#copy2'], 0.8, { autoAlpha: 1, ease: "expo.out" }, 0.1, 'start+=2')
+    .staggerFrom(['#copy1', '#copy2'], 0.8, { y: '+=50', ease: "expo.out" }, 0.1, 'start+=2')
+    .to(['#copy1', '#copy2'], 0.5, { alpha: 0, delay: 2 })
+    .staggerTo(['#copy3', '#copy4',], 0.8, { autoAlpha: 1, ease: "expo.out" }, 0.1, 'start+=5.5')
+    .staggerFrom(['#copy3', '#copy4'], 0.8, { y: '+=50', ease: "expo.out" }, 0.1, 'start+=5.5')
+    .to('#endframe', 1, { top: 0, ease: "expo.out", delay: 1.5 });
+  // .to('#logo', 0.5, { autoAlpha: 1 },);
 }
 
 function setRollover() {
