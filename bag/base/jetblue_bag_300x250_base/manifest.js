@@ -1,11 +1,11 @@
 FT.manifest({
     "filename": "index.html",
-    "width": 728,
-    "height": 90,
+    "width": 300,
+    "height": 250,
     "clickTagCount": 1,
     "hideBrowsers": ["ie8"],
     "richloads": [
- 		{"name":"main_rl", "src":"jetblue_lto_beach_728x90_richload"}
+ 		{"name":"main_rl", "src":"jetblue_bag_300x250_richload"}
  	],
     "instantAds": [
         {"name":"main_rl",          "type":"richload"}, 
