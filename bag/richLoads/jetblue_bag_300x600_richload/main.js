@@ -33,7 +33,7 @@ function animate() {
     .staggerTo(['#copy1-1', '#copy1-2'], 0.8, { autoAlpha: 1, ease: "expo.out" }, 0.1, 'start+=2')
     .staggerFrom(['#copy1-1', '#copy1-2'], 0.8, { y: '+=50', ease: "expo.out" }, 0.1, 'start+=2')
     .to(['#copy1-1', '#copy1-2'], 0.5, { alpha: 0, delay: 2 })
-    .staggerTo(['#copy2-1', '#copy2-2',], 0.8, { autoAlpha: 1, ease: "expo.out" }, 0.1, 'start+=5.5')
+    .staggerTo(['#copy2-1', '#copy2-2'], 0.8, { autoAlpha: 1, ease: "expo.out" }, 0.1, 'start+=5.5')
     .staggerFrom(['#copy2-1', '#copy2-2'], 0.8, { y: '+=50', ease: "expo.out" }, 0.1, 'start+=5.5')
     .to('#endframe', 1, { top: 0, ease: "expo.out", delay: 1.5 })
     .to('#shine', 0.5, { backgroundPosition: '125px -20px' });
