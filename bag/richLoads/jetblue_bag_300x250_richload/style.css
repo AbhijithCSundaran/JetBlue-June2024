@@ -93,8 +93,8 @@ img {
 }
 
 #endframe .terms {
-  left: 227px;
-  top: 174px;
+  left: 234px;
+  top: 180px;
   color: #0000aa;
   font-family: "KlarheitGroteskExtraBold", sans-serif;
 }
@@ -114,7 +114,9 @@ img {
 }
 
 .card_wrpr {
-  left: 139px;
+  top: -12px;
+  left: 132px;
+  width: calc(100% + 35px);
 }
 
 #shine {
