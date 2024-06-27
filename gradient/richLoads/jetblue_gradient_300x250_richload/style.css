@@ -88,7 +88,7 @@ img {
 .copy .bigger {
   font-size: 75px;
   display: flex;
-  margin-bottom: -9px;
+  margin-bottom: -5px;
 }
 
 .copy sup {
@@ -159,7 +159,7 @@ img {
   font-family: "KlarheitGroteskSemiBold", sans-serif;
   font-size: 11px;
   top: 98px;
-  left: 14px;
+  left: 19px;
   width: 98px;
   height: 31px;
   display: flex;

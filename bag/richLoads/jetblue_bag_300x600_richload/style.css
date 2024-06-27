@@ -81,7 +81,7 @@ img {
   font-size: 9px;
   letter-spacing: 0px;
   color: #ffffff;
-  font-family: "KlarheitGroteskBook", sans-serif;
+  font-family: "KlarheitGroteskExtraBold", sans-serif;
 }
 
 #endframe {
@@ -101,7 +101,7 @@ img {
 }
 
 #endframe .terms {
-  font-size: 11px;
+  font-size: 10px;
   left: 206px;
   top: 479px;
   color: #0000aa;
