@@ -30,6 +30,7 @@
 .right-0 {
   right: 0px
 }
+
 .top-0 {
   top: 0px
 }
@@ -68,9 +69,9 @@ img {
 
 .copy {
   position: absolute;
-  left: 14px;
-  top: 29px;
-  font-size: 26px;
+  left: 23px;
+  top: 25px;
+  font-size: 24px;
   letter-spacing: -0.35px;
   line-height: 1;
   color: #ffffff;
@@ -79,31 +80,34 @@ img {
 }
 
 .terms {
-  top: 172px;
-  left: 86px;
-  font-size: 9px;
+  top: 78px;
+  right: 143px;
+  font-size: 7px;
   letter-spacing: -0.4px;
-  color: #ffffff;
-  font-family: "KlarheitGroteskBook", sans-serif;
+  color: #0000aa;
+  font-family: "KlarheitGroteskExtraBold", sans-serif;
 }
 
 #endframe {
-  right: calc(100% - 10px);
+  right: calc(100% - 9px);
   background-color: #ffffff;
   display: block;
   z-index: 5;
   transition: all 0.1s;
 }
 
-#endframe .terms {
-  left: 227px;
-  top: 174px;
-  color: #0000aa;
-  font-family: "KlarheitGroteskExtraBold", sans-serif;
-}
+/* #endframe .terms {
+  top: 77px;
+  right: 143px;
+} */
 
 #endframe .copy {
   color: #0000aa;
+  font-size: 23px;
+  left: 40px;
+  top: 18px;
+  letter-spacing: 0.6px;
+  line-height: 1.2;
 }
 
 #endframe .copy span {
@@ -112,19 +116,19 @@ img {
 
 .pink-bar {
   height: 100%;
-  width: 9px;
+  width: 10px;
   background-color: #fc3388;
 }
 
 .card_wrpr {
-  left: 139px;
+  /* left: 139px; */
 }
 
 #shine {
-  top: 96px;
-  left: 15px;
-  width: 123px;
-  height: 76px;
+  top: 13px;
+  left: 481px;
+  width: 105px;
+  height: 65px;
   background-image: url(./images/shine.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -140,10 +144,10 @@ img {
   color: #fff;
   font-family: "KlarheitGroteskSemiBold", sans-serif;
   font-size: 11px;
-  top: 98px;
-  left: 14px;
-  width: 98px;
-  height: 31px;
+  top: 29px;
+  left: 320px;
+  width: 92px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
