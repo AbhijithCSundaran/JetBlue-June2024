@@ -129,14 +129,14 @@ img {
 }
 
 #shine {
-  top: 96px;
-  left: 15px;
-  width: 123px;
-  height: 76px;
+  top: 175px;
+  left: 24px;
+  width: 246px;
+  height: 151px;
   background-image: url(./images/shine.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: -120px -20px;
+  background-position: -240px -40px;
   mix-blend-mode: soft-light;
 }
 

@@ -36,7 +36,7 @@ function animate() {
     .staggerTo(['#copy2-1'], 0.8, { autoAlpha: 1, ease: "expo.out" }, 0.1, 'start+=5.5')
     .staggerFrom(['#copy2-1'], 0.8, { y: '+=50', ease: "expo.out" }, 0.1, 'start+=5.5')
     .to('#endframe', 1, { right: 0, ease: "expo.out", delay: 1.5 })
-    .to('#shine', 0.5, { backgroundPosition: '125px -20px' });
+    .to('#shine', 0.5, { backgroundPosition: '80px -15px' });
 }
 
 function setRollover() {
