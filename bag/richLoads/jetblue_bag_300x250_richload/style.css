@@ -117,6 +117,18 @@ img {
   left: 139px;
 }
 
+#shine {
+  top: 96px;
+  left: 15px;
+  width: 123px;
+  height: 76px;
+  background-image: url(./images/shine.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: -120px -20px;
+  mix-blend-mode: soft-light;
+}
+
 .cta {
   text-align: center;
   transform-origin: center;
