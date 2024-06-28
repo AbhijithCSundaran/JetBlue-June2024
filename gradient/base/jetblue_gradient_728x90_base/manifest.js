@@ -5,7 +5,7 @@ FT.manifest({
     "clickTagCount": 1,
     "hideBrowsers": ["ie8"],
     "richloads": [
- 		{"name":"main_rl", "src":"jetblue_gradient_728x90_richload"}
+ 		// {"name":"main_rl", "src":"jetblue_gradient_728x90_richload"}
  	],
     "instantAds": [
         {"name":"main_rl",          "type":"richload"}, 
