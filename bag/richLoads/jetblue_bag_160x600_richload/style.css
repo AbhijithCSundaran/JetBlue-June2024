@@ -76,8 +76,8 @@ img {
 }
 
 .terms {
-  left: 109px;
-  bottom: 165px;
+  left: 107px;
+  bottom: 321px;
   font-size: 7px;
   letter-spacing: -0.4px;
   color: #ffffff;
@@ -100,7 +100,7 @@ img {
 
 #endframe .terms {
   left: 109px;
-  bottom: 165px;
+  bottom: 166px;
   color: #0000aa;
   /* font-family: "KlarheitGroteskExtraBold", sans-serif; */
 }

@@ -30,7 +30,7 @@ function animate() {
   // let video play
   tl.addLabel('start', 0)
     .to('#container', 0, { autoAlpha: 1 }, 'start+=0')
-    .staggerTo(['#copy1-1', '#copy1-2', '#copy1-3'], 1, { autoAlpha: 1, ease: Power2.easeOut }, 'start+=0')
+    .to(['#copy1-1', '#copy1-2', '#copy1-3'], 0, { autoAlpha: 1, ease: Power2.easeOut }, 'start+=0')
     .to(['#copy1', '#activity', '.terms'], 0.4, { alpha: 0, delay: 3 })
     .to(['.terms'], 0.4, { alpha: 1 })
     .staggerTo(['#copy2-1', '#copy2-2', '#copy2-3'], 1, { autoAlpha: 1, ease: Power2.easeOut }, 0.3, 'start+=3.5')
