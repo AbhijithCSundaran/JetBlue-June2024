@@ -38,7 +38,7 @@ function animate() {
     .staggerTo(['#copy2-1', '#copy2-2', '#copy2-3'], 1, { autoAlpha: 1, ease: Power2.easeOut }, 0.3, 'start+=3.5')
     .staggerFrom(['#copy2-1', '#copy2-2', '#copy2-3'], 1, { y: '+=50', ease: Power2.easeOut }, 0.3, 'start+=3.5')
     .to('#logo', 0.4, { alpha: 0, delay: 0.0, ease: Power2.easeOut, delay: 2.35 })
-    .to('#endframe', 1, { top: 0, ease: Power2.easeOut, delay: 0.0 })
+    .to('#endframe', 1, { top: 0, ease: "expo.out", delay: 0.0 })
     .to('#shine', 0.5, { backgroundPosition: '125px -20px' });
   // .to('#logo', 0.5, { autoAlpha: 1 },);
 }
@@ -60,7 +60,7 @@ function defaultOut() {
 
 function init() {
 
-  tl = new TimelineMax();
+  tl = new TimelineMax({ repeat: -1 });
 
   animate();
   setRollover();

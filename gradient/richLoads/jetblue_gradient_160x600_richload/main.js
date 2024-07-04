@@ -36,7 +36,7 @@ function animate() {
     .staggerTo(['#copy2-1', '#copy2-2', '#copy2-3', '#copy2-4', '#copy2-5'], 0.8, { autoAlpha: 1, ease: Power2.easeOut }, 0.1, 'start+=5.5')
     .staggerFrom(['#copy2-1', '#copy2-2', '#copy2-3', '#copy2-4', '#copy2-5'], 0.8, { y: '+=150', ease: Power2.easeOut }, 0.1, 'start+=5.5')
     .to('#logo', 0.4, { alpha: 0, delay: 0.0, ease: Power2.easeOut, delay: 2.35 })
-    .to('#endframe', 1, { top: 0, ease: Power2.easeOut, delay: 0.0 })
+    .to('#endframe', 1, { top: 0, ease: "expo.out", delay: 0.0 })
     .to('#shine', 0.5, { backgroundPosition: '125px -20px' });
 }
 
