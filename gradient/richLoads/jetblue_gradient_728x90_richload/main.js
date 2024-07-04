@@ -29,16 +29,16 @@ function animate() {
 
   // let video play
   tl.addLabel('start', 0)
-    .to('#container', 0.5, { autoAlpha: 1 }, 'start+=0.5')
-    .staggerTo(['#copy1-1', '#copy1-2', '#copy1-3'], 0.8, { autoAlpha: 1, ease: Power2.easeOut }, 0.1, 'start+=2')
-    .staggerFrom(['#copy1-1', '#copy1-2', '#copy1-3'], 0.8, { y: '+=50', ease: Power2.easeOut }, 0.1, 'start+=2')
-    .to(['#copy1', '#activity'], 0.5, { alpha: 0, delay: 2 })
-    .to(['.terms'], 0.5, { x: '-=15' }, 'start+=5')
-    .staggerTo(['#copy2-1', '#copy2-2', '#copy2-3'], 0.8, { autoAlpha: 1, ease: Power2.easeOut }, 0.1, 'start+=5.5')
-    .staggerFrom(['#copy2-1', '#copy2-2', '#copy2-3'], 0.8, { y: '+=50', ease: Power2.easeOut }, 0.1, 'start+=5.5')
-  .to('#logo', 0.4, { alpha: 0, delay: 0.0, ease: Power2.easeOut, delay: 2.35 })
+    .to('#container', 0, { autoAlpha: 1 }, 'start+=0')
+    .staggerTo(['#copy1-1', '#copy1-2', '#copy1-3'], 0, { autoAlpha: 1, ease: Power2.easeOut }, 0, 'start+=0')
+    .to(['#copy1', '#activity', '.terms'], 0.4, { alpha: 0, delay: 3 })
+    .to(['.terms'], 0.4, { alpha: 1 })
+    // .to(['.terms'], 0.5, { x: '-=15' }, 'start+=5')
+    .staggerTo(['#copy2-1', '#copy2-2', '#copy2-3'], 1, { autoAlpha: 1, ease: Power2.easeOut }, 0.3, 'start+=3.5')
+    .staggerFrom(['#copy2-1', '#copy2-2', '#copy2-3'], 1, { y: '+=50', ease: Power2.easeOut }, 0.3, 'start+=3.5')
+    .to('#logo', 0.4, { alpha: 0, delay: 0.0, ease: Power2.easeOut, delay: 2.35 })
     .to('#endframe', 1, { right: 0, ease: Power2.easeOut, delay: 0.0 })
-  .to('#shine', 0.5, { backgroundPosition: '80px -15px' });
+    .to('#shine', 0.5, { backgroundPosition: '80px -15px' });
 }
 
 function setRollover() {

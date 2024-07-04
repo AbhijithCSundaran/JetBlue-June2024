@@ -60,7 +60,7 @@ function defaultOut() {
 
 function init() {
 
-  tl = new TimelineMax({ repeat: -1 });
+  tl = new TimelineMax();
 
   animate();
   setRollover();
