@@ -101,7 +101,7 @@ img {
 }
 
 .terms {
-  left: 13px;
+  right: 17px;
   bottom: 165px;
   font-size: 6.5px;
   letter-spacing: -0.4px;
@@ -124,7 +124,7 @@ img {
 }
 
 #endframe .terms {
-  left: 109px;
+  /* left: 109px; */
   bottom: 165px;
 }
 

@@ -33,7 +33,7 @@ function animate() {
     .to(['#copy1-1', '#copy1-2', '#copy1-3'], 0, { autoAlpha: 1, ease: Power2.easeOut }, 0, 'start+=0')
     .to(['#copy1', '#activity', '.terms'], 0.4, { alpha: 0, delay: 3 })
     .to(['.terms'], 0.4, { alpha: 1 })
-    // .to(['.terms'], 0.5, { x: '-=15' }, 'start+=5')
+    .to(['.terms'], 0, { x: '-=15' }, 'start+=3.4')
     .staggerTo(['#copy2-1', '#copy2-2', '#copy2-3'], 1, { autoAlpha: 1, ease: Power2.easeOut }, 0.3, 'start+=3.5')
     .staggerFrom(['#copy2-1', '#copy2-2', '#copy2-3'], 1, { y: '+=50', ease: Power2.easeOut }, 0.3, 'start+=3.5')
     .to('#logo', 0.4, { alpha: 0, delay: 0.0, ease: Power2.easeOut, delay: 2.35 })
