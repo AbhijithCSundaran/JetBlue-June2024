@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "KlarheitGroteskBook";
+  src: url("fonts/ESKlarheitGrotesk-Bk.woff2");
+}
+
+@font-face {
+  font-family: "KlarheitGroteskSemiBold";
+  src: url("fonts/ESKlarheitGrotesk-Smbd.woff2");
+}
+
+@font-face {
+  font-family: "KlarheitGroteskExtraBold";
+  src: url("fonts/ESKlarheitGrotesk-Xbd.woff2");
+}
+
+
+.full-size {
+  height: 100%;
+  width: 100%;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.left-0 {
+  left: 0px
+}
+
+.top-0 {
+  top: 0px
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.z-index1 {
+  z-index: 1;
+}
+
+.z-index2 {
+  z-index: 2;
+}
+
+img {
+  max-width: 100%;
+}
+
+#container {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  opacity: 0;
+  font-family: "KlarheitGroteskExtraBold", sans-serif;
+  color: #ffffff;
+}
+
+#default_exit {
+  z-index: 100;
+  cursor: pointer;
+}
+
+.copy {
+  position: absolute;
+  left: 19px;
+  top: 29px;
+  font-size: 26px;
+  letter-spacing: -0.35px;
+  line-height: 1;
+  color: #ffffff;
+  font-family: "KlarheitGroteskExtraBold", sans-serif;
+  transition: all 0.1s;
+}
+
+.terms {
+  top: 172px;
+  left: 86px;
+  font-size: 9px;
+  letter-spacing: -0.35px;
+  color: #ffffff;
+  font-family: "KlarheitGroteskBook", sans-serif;
+}
+
+#endframe {
+  top: calc(100% - 10px);
+  background-color: #ffffff;
+  display: block;
+  z-index: 5;
+  transition: all 0.1s;
+}
+
+#endframe .terms {
+  left: auto;
+  right: 13px;
+  top: 185px;
+  color: #0000aa;
+}
+
+#endframe .copy {
+  top: 29px;
+  letter-spacing: -0.5px;
+  color: #0000aa;
+}
+
+#endframe .copy span {
+  color: #fc3388;
+}
+
+.pink-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #fc3388;
+}
+
+.card_wrpr {
+  top: -42px;
+}
+
+#shine {
+  top: 140px;
+  left: 152px;
+  width: 136px;
+  height: 85px;
+  background-image: url(./images/shine.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: -120px -20px;
+  mix-blend-mode: soft-light;
+}
+
+.cta {
+  text-align: center;
+  transform-origin: center;
+  border-radius: 4px;
+  background: #fc3388;
+  color: #fff;
+  font-family: "KlarheitGroteskSemiBold", sans-serif;
+  font-size: 11px;
+  top: 98px;
+  left: 19px;
+  width: 98px;
+  height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

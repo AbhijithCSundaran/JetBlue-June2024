@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "KlarheitGroteskBook";
+  src: url("fonts/ESKlarheitGrotesk-Bk.woff2");
+}
+
+@font-face {
+  font-family: "KlarheitGroteskSemiBold";
+  src: url("fonts/ESKlarheitGrotesk-Smbd.woff2");
+}
+
+@font-face {
+  font-family: "KlarheitGroteskExtraBold";
+  src: url("fonts/ESKlarheitGrotesk-Xbd.woff2");
+}
+
+
+.full-size {
+  height: 100%;
+  width: 100%;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.left-0 {
+  left: 0px
+}
+
+.top-0 {
+  top: 0px
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.z-index1 {
+  z-index: 1;
+}
+
+.z-index2 {
+  z-index: 2;
+}
+
+img {
+  max-width: 100%;
+}
+
+#container {
+  position: absolute;
+  width: 160px;
+  height: 600px;
+  overflow: hidden;
+  opacity: 0;
+  font-family: "KlarheitGroteskExtraBold", sans-serif;
+  color: #ffffff;
+}
+
+#default_exit {
+  z-index: 100;
+  cursor: pointer;
+}
+
+.copy {
+  position: absolute;
+  left: 12px;
+  top: 45px;
+  font-size: 28px;
+  letter-spacing: 0px;
+  line-height: 1.12;
+  color: #ffffff;
+  font-family: "KlarheitGroteskExtraBold", sans-serif;
+  transition: all 0.1s;
+}
+
+.terms {
+  left: 107px;
+  bottom: 321px;
+  font-size: 7px;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+  font-family: "KlarheitGroteskBook", sans-serif;
+}
+
+#endframe {
+  top: calc(100% - 15px);
+  background-color: #ffffff;
+  display: block;
+  z-index: 5;
+  transition: all 0.1s;
+}
+
+#endframe .copy {
+  top: 121px;
+  font-size: 27px;
+  letter-spacing: -0.25px;
+}
+
+#endframe .terms {
+  left: 109px;
+  bottom: 166px;
+  color: #0000aa;
+  /* font-family: "KlarheitGroteskExtraBold", sans-serif; */
+}
+
+#endframe .copy {
+  color: #0000aa;
+}
+
+#endframe .copy span {
+  color: #fc3388;
+}
+
+#logo {
+  bottom: 12px;
+}
+
+.pink-bar {
+  width: 100%;
+  height: 15px;
+  background-color: #fc3388;
+}
+
+.card_wrpr {
+  top: 155px;
+}
+
+#shine {
+  top: 185px;
+  left: 14px;
+  width: 133px;
+  height: 81px;
+  background-image: url(./images/shine.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: -120px -20px;
+  mix-blend-mode: soft-light;
+}
+
+.cta {
+  text-align: center;
+  transform-origin: center;
+  border-radius: 6px;
+  background: #fc3388;
+  color: #fff;
+  font-family: "KlarheitGroteskSemiBold", sans-serif;
+  font-size: 14px;
+  top: 271px;
+  left: 14px;
+  width: 115px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
