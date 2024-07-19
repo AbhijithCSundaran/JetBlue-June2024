@@ -5,7 +5,7 @@ FT.manifest({
     "clickTagCount": 1,
     "hideBrowsers": ["ie8"],
     "richloads": [
- 		{"name":"main_rl", "src":"jetblue_bag_300x600_richload"}
+ 		{"name":"main_rl", "src":"JetBlue_Display Banners_FCB_V1_Branded_HTML5_300x600"}
  	],
     "instantAds": [
         {"name":"main_rl",          "type":"richload"}, 
